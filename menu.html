@@ -1,28 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanha Tiffin Service - Menu</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f8f9fa;
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kanha Tiffin Service - Delicious, home-style meals delivered to your doorstep in Chandigarh and Mohali.">
+    <meta name="keywords" content="tiffin service, food delivery, Kanha Tiffin, home-style meals, vegetarian food, North Indian food">
+    <title>Kanha Tiffin Service - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+ .header-img {
+      width: 35%;
+      height: 100px;
     }
 
-    .navbar {
-      background-color: #343a40;
+    .hero-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      margin-top: 20px;
     }
 
-    .navbar a {
-      color: #fff;
+        .navbar {
+            background-color: #343a40;
+			text-align:center;
+        }
+
+        .navbar a {
+            color: #fff;
+        }
+
+        .navbar a:hover {
+            color: #ff9f00;
+        }
+
+        .header-section {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .header-section img {
+            width: 35%;
+            height: 100px;
+        }
+
+        .header-section p {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .feature-card {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .feature-card img {
+            width: 70%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .feature-card h5 {
+            margin-top: 15px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #ff9f00;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Button Styles */
+        .btn-custom {
+            background-color: #ff9f00;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #e68900;
+        }
+
+       .hero-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      margin-top: 20px;
     }
 
-    .navbar a:hover {
-      color: #ff9f00;
+    .menu-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+
+    .menu-item p {
+      font-size: 1.2rem;
+      text-align: center;
+      margin-top: 10px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .social-media a {
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .social-media img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .social-media img:hover {
+            transform: scale(1.1);
+        }
+
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        .footer-section {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer-section a {
+            color: #ffc107;
+        }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+    
+	        .header-section {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .header-section img {
+            width: 35%;
+            height: 100px;
+        }
+
+        .header-section p {
+            font-size: 2rem;
+            font-weight: bold;
+        }
 
     .header-section {
       background-color: #343a40;
@@ -141,14 +293,15 @@
       height: 35px;
       margin: 0 10px;
     }
-  </style>
+	</style>
+
 </head>
 
 <body>
 
-  <!-- Header Section -->
+    <!-- Header Section -->
   <div class="container-fluid py-3">
-    <div class="row align-items-center">
+    <div class="row">
       <div class="col-6">
         <img src="w.jfif" alt="Kanha Tiffin Service" class="header-img rounded-circle">
         <p class="h3 d-inline-block ms-3">Kanha Tiffin Service</p>
@@ -159,31 +312,32 @@
     </div>
   </div>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactus.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
   <!-- Hero Image -->
   <img src="12.jpg" alt="Delicious Tiffin" class="hero-image">
@@ -240,13 +394,24 @@
 
     <!-- Call to Action Section -->
     <div class="row mt-5">
-      <div class="col-12 bg-dark text-center py-5">
+      <div class="col-12 footer-section text-center py-5">
         <p class="h4 text-white">We offer you</p>
         <p class="h1 text-white">EVERYTHING AT ONE PLACE</p>
         <a href="https://www.zomato.com/chandigarh/kanha-tiffin-service-1-kharar-road-mohali/order"
           class="btn btn-warning btn-lg text-white">Place Your Order Now</a>
       </div>
     </div>
+	<!-- Footer Section -->
+<div class="footer-section  mt-5">
+    <p>&copy; 2024 Kanha Tiffin Service | All Rights Reserved</p>
+    <p>
+        <a href="index.html">Home</a> | 
+        <a href="aboutus.html">About Us</a> | 
+        <a href="menu.html">Menu</a> | 
+        <a href="Contantsus.html">Contact Us</a>
+    </p>
+</div>
+
 
     <!-- Social Media Section -->
     <div class="container text-center mt-5">
@@ -255,7 +420,7 @@
         <a href="https://www.facebook.com/kanhatiffi/"><img src="facebook.jfif" alt="Facebook"></a>
         <a href="https://www.instagram.com/kanhatiffinservice/"><img src="i.png" alt="Instagram"></a>
         <a href="https://www.swiggy.com/restaurants/kanha-tiffin-service-greater-mohali-chajju-majra-road-chandigarh-429575"><img src="s.png" alt="Swiggy"></a>
-        <a href="https://www.zomato.com/chandigarh/kanha-tiffin-service-1-kharar-road-mohali/order"><img src="zomato2.png" alt="Zomato"></a>
+        <a href="https://www.zomato.com/chandigarh/kanha-tiffin-service-1-kharar-road-mohali/order"><img src="data:image/png;base64,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 alt="Zomato"></a>
       </div>
     </div>
 
